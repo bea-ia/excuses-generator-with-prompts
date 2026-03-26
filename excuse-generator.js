@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 
+// Excuse Generator PRO 😎
 // Uso:
 // node excuse.js            -> 1 excusa aleatoria
 // node excuse.js 5          -> 5 excusas
@@ -84,7 +85,4 @@ module.exports = {
   buildExcuse,
   getRandomExcuse,
 };
-const getRandomAction = () => action[Math.floor(Math.random() * action.length)];
-const getRandomWhat = () => what[Math.floor(Math.random() * what.length)];
-const getRandomWhen = () => when[Math.floor(Math.random() * when.length)];
 
